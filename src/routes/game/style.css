@@ -1,0 +1,83 @@
+body, html {
+	height: 100%;
+	background: #292826;
+	color: #fdfdfd;
+}
+
+.game {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.title {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.title h1 {
+	color: #f9d432;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+}
+
+.title h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+}
+
+.timeSelect {
+	padding: 10px;
+	display: flex;
+}
+
+.timeSelect select {
+	flex: 1;
+	margin-right: 10px;
+}
+
+.timer {
+	padding-top: 1.5rem;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.promptSection {
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.promptSection h2 {
+	font-size: 1.25rem;
+	padding-bottom: 10px;
+}
+
+.promptSection h1 {
+	font-size: 1.75rem;
+}
+
+.performers {
+	padding: 10px;
+}
+
+.performers > .item {
+    display: flex;
+	flex-direction: row;
+	
+	text-align: center;
+
+    margin: 5px 0px;
+}
+
+.performers > .item > .name {
+    background: #ae45c5;
+    color: #fdfdfd;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    line-height: 2.5rem;
+	font-size: 1rem;
+
+    flex: 1;
+
+    border-radius: 4px;
+    margin-right: 10px;
+}

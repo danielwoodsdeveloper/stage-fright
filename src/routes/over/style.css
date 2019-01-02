@@ -1,0 +1,24 @@
+body, html {
+	height: 100%;
+	background: #292826;
+	color: #fdfdfd;
+}
+
+.over {
+    position: absolute;
+    left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.over h1 {
+	font-size: 4rem;
+	color: #f9d432;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.over button {
+	margin: 20px;
+}

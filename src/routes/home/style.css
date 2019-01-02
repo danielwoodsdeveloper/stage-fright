@@ -1,0 +1,29 @@
+body, html {
+	height: 100%;
+	background: #292826;
+	color: #fdfdfd;
+}
+
+.welcome {
+    position: absolute;
+    left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.welcome h1 {
+	color: #f9d432;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+}
+
+.welcome h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+}
+
+.welcome button {
+	margin-top: 5vh;
+}
